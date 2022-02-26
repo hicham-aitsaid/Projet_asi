@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="asi.projet_asi">
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,17 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_asi">
-        <activity android:name=".fournisseur.add_product"></activity>
-        <activity android:name=".fournisseur.fournisseur_profil" />
-        <activity android:name=".fournisseur.fournisseur_home" />
-        <activity android:name=".user_login" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity android:name=".home_client">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

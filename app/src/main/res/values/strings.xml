@@ -1,5 +1,31 @@
 <resources>
     <string name="app_name">Projet_asi</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="wilaya">
+        <item>Wilaya</item>
+        <item>Alger</item>
+        <item>Blida</item>
+        <item>Tipaza</item>
+        <item>Boumerdes</item>
+        <item>Mostaganem</item>
+        <item>Sidi Bel Abbes</item>
+    </string-array>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Acceuil</item>
+        <item>Mes commandes</item>
+        <item>Profile</item>
+        <item>A propos</item>
+        <item />
+        <item>Déconnexion</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_baseline_home_24</item>
+        <item>@drawable/ic_baseline_shopping_basket_24</item>
+        <item>@drawable/ic_baseline_person_24</item>
+        <item>@drawable/ic_baseline_info_24</item>
+        <item>0</item>
+        <item>@drawable/ic_baseline_login_24</item>
+    </array>
 </resources>
