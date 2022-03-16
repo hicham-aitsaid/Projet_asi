@@ -7,7 +7,7 @@ class Product(val name: String, val isOnline: Boolean) {
         fun createProductsList(numProducts: Int): ArrayList<Product> {
             val Products = ArrayList<Product>()
             for (i in 1..numProducts) {
-                Products.add(Product("Person " + ++lastProductId, i <= numProducts / 2))
+                Products.add(Product("Produit " + ++lastProductId, i <= numProducts / 2))
             }
             return Products
         }

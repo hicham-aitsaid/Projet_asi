@@ -27,7 +27,7 @@ class fournisseur_home : AppCompatActivity() {
             startActivity(Intent(this,add_product::class.java))
         }
         button2.setOnClickListener {
-            startActivity(Intent(this,fournisseur_profil::class.java))
+
         }
 
 

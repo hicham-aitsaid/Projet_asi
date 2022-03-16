@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_asi">
+        <activity android:name=".home_client"></activity>
+        <activity android:name=".fournisseur.fournisseur_home"></activity>
+        <activity android:name=".fournisseur.add_product"></activity>
         <activity
             android:name=".SignUp"
             android:exported="false" />
@@ -18,7 +21,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="false" />
-        <activity android:name=".home_client">
+        <activity android:name=".chooser">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
